@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "540721394657",
+    "firebase_url": "https://hawkers-ce17e.firebaseio.com",
+    "project_id": "hawkers-ce17e",
+    "storage_bucket": "hawkers-ce17e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540721394657:android:597088e839a54bde",
+        "android_client_info": {
+          "package_name": "com.example.shivam6731.hawkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540721394657-53rau6bquc0vs5i2v97g21nip4b30hfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam6731.hawkers",
+            "certificate_hash": "774ccdbd4405cf877eeecca4687a128eee9f644c"
+          }
+        },
+        {
+          "client_id": "540721394657-bbavdll9db77hefgqd0rdm61fv2t27c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKtMyymIDeum58XQX_fwXOOqbkf91inSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540721394657-bbavdll9db77hefgqd0rdm61fv2t27c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

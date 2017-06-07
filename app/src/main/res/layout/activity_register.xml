@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_actvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/signup"
+    tools:context="com.example.shivam6731.hawkers.RegisterActvity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/namefield"
+        android:hint="Your Name here..."
+        android:textColorHint="#205d9b"
+        android:textStyle="bold"
+        android:layout_above="@+id/emailfield"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColorHint="#205d9b"
+        android:textStyle="bold"
+
+        android:ems="10"
+        android:id="@+id/emailfield"
+        android:hint="Email......"
+        android:layout_above="@+id/passwordfield"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:id="@+id/passwordfield"
+        android:inputType="textPassword"
+        android:hint="Password......"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:textColorHint="#205d9b"
+        android:layout_above="@+id/registerbtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="S I G N  U P"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#123"
+        android:textColor="#205d9b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerbtn"
+        android:layout_marginBottom="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="f o o d C o v e r y"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="45dp"
+        android:textColor="#205d9b"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_above="@+id/namefield"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:id="@+id/textView2" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hawkers</string>
+    <string name="country_prompt">Choose a category</string>
+
+    <string-array name="country_arrays">
+        <item>Chineese</item>
+        <item>Italian</item>
+        <item>North Indian</item>
+        <item>South Indian</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="arrays">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+
+    </string-array>
+</resources>
